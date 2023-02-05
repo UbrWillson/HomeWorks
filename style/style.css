@@ -1,7 +1,84 @@
+
 *{margin: 0;
     padding: 0;
     box-sizing: border-box;
     }
+
     ol,ul{list-style: none;}
+
     a{text-decoration: none;}
-    
+
+    .container{
+        max-width: 1110px;
+        margin: 0 auto;
+        
+    }
+    body{background-color: #F9F9F9;
+        font-family: 'Roboto', sans-serif;}
+    /* NAVIGATION PANEL  */
+    .navigation_panel{display: inline-block;
+    margin-top: 79px;
+    margin-bottom: 163px;
+}
+    .navigation_panel_decoration{color: #000000;
+        font-size: medium;
+        margin-right: 42px;
+        
+    }
+    .navigation_panel_decoration:hover{color: #34547A;}
+    .navigation_panel_position{display: inline-block;}
+/* TEXT AFTER NAV PANEL  */
+
+    .first_text_block{
+    margin-bottom: 253px;
+    }
+    .title{
+        margin-bottom: 60px;
+    }
+    .btn{margin-top: 65px;
+    }
+    .write_me{border: 15px solid #34547A;
+    background-color: #34547A;
+color: #FFFFFF;
+
+}
+.btn_text{font-size: 16px;}
+/* ABOUT ME  */
+.about_me{text-align: center;
+margin-bottom: 100px;
+}
+/* Image BLOCK  */
+.image_block{background-color: #34547A; 
+position: relative;
+width: 1920px;
+height: 250px;
+margin-bottom: 100px;
+}
+.images_position{display: inline-block;
+position: absolute;
+width: 141px;
+height: 50px;
+top: 100px;
+}
+.image_1{left: 410px;}
+.image_2{left: 595px;}
+.image_3{left: 785px;}
+.image_4{right: 805px;}
+.image_5{right: 615px;}
+.image_6{right: 425px;}
+
+    /* HOW I WORK  */
+    .how_i_work{text-align: center;}
+    .work_title{margin-bottom: 50px;}
+    .video_icon{width: 1110px;
+    height: 600px;
+margin-top: 65px;
+margin-bottom: 100px;}
+/* FOOTER  */
+.ending{width: 1920px;
+height: 151px;
+background-color: #34547A;
+color: #FFFFFF;
+padding-top: 50px;}
+.creator_name{font-size: 21px;}
+.copyright{font-size: 13px;}
