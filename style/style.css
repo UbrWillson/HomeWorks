@@ -23,8 +23,20 @@
     .navigation_panel_decoration{color: #000000;
         font-size: medium;
         margin-right: 42px;
+        position: relative;
         
     }
+    .navigation_panel_decoration::before{
+        content: '';
+        position: absolute;
+        height: 2px;
+        background-color: #000000;
+        width: 0;
+        bottom: -3px;
+        left: 0;
+        transition: 0.5s;
+    }
+    .navigation_panel_decoration:hover::before{width: 100%;}
     .navigation_panel_decoration:hover{color: #34547A;}
     .navigation_panel_position{display: inline-block;}
 /* TEXT AFTER NAV PANEL  */
@@ -42,6 +54,10 @@
 color: #FFFFFF;
 
 }
+
+.write_me:hover{
+    text-decoration: underline;
+}
 .btn_text{font-size: 16px;}
 /* ABOUT ME  */
 .about_me{text-align: center;
@@ -56,16 +72,16 @@ margin-bottom: 100px;
 }
 .images_position{display: inline-block;
 position: absolute;
-width: 141px;
 height: 50px;
 top: 100px;
 }
-.image_1{left: 410px;}
+.images :last-child{right: 425px;}
+.images :first-child{left: 410px;}
 .image_2{left: 595px;}
 .image_3{left: 785px;}
 .image_4{right: 805px;}
 .image_5{right: 615px;}
-.image_6{right: 425px;}
+
 
     /* HOW I WORK  */
     .how_i_work{text-align: center;}
