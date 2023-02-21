@@ -1,7 +1,38 @@
-*{margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    *{margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        }
+        ol,ul{list-style: none;}
+        a{text-decoration: none;}
+        .wrap{display: flex;
+        flex-direction: column;
+        
     }
-    ol,ul{list-style: none;}
-    a{text-decoration: none;}
+    .main{padding-left: 50px;
+    display: flex;
+    align-items: center; 
+   
+    width: 1280px; 
+    height: 500px;
+    background-image: url(../images/Mask_Group.png);}
+    .main h1{
+padding-bottom: 20px;
+font-family: 'Cormorant', serif;
+font-size: 50px;
+    }
+    .main p{padding-bottom: 40px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 300;
+        font-size: 26px;
+    }
     
+    .btn a{border: 1px solid #FF8126;
+    border-radius: 5px;
+    background-color: #FF8126;
+    color: #FFFFFF;
+    font-size: 18px;
+    padding: 9px 36px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    }
+
