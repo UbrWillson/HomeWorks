@@ -14,3 +14,9 @@
     padding: 15px 0px;}
      .wrap:nth-child(1) {background-color: #EFEFEF;
     }
+    .logo{padding: 20px 0px;}
+    .second_nav p{
+        margin-right: 40px;
+        padding: 30px 0px;
+        
+    }
