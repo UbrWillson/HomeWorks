@@ -4,4 +4,13 @@
     }
     ol,ul{list-style: none;}
     a{text-decoration: none;}
-    
+    .container{
+        max-width: 1110px;
+        margin: 0 auto;
+    }
+    .wrap{display: flex;
+    justify-content: center;}
+    .wrap p{margin-right: 30px;
+    padding: 15px 0px;}
+     .wrap:nth-child(1) {background-color: #EFEFEF;
+    }
