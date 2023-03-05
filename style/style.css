@@ -39,10 +39,8 @@ padding: 10px 30px;
 .special_offers{justify-content: flex-start;
 padding: 80px 0px 40px 0px;
 }
-.special_offers_list{ align-items: center;
 
-}
-.special_offers_list div{padding: 0px 25px;}
+.special_offers_list div{padding: 0px 21px;}
 .list_item{background-color: #FFFFFF;
 flex-direction: column;
 
@@ -51,9 +49,11 @@ flex-direction: column;
 margin: 0;
 align-items: center;
 text-align: center;
+
 }
 
-.purple{padding-bottom: 25px;
+.list_item:first-child{}
+.purple{margin-bottom: 20px;
    text-align: center;
 }
 .purple a{background-color: #F13C6E;
@@ -61,4 +61,62 @@ border: #F13C6E;
 
 }
 /* PINK SQUARE  */
-.pink_square div:last-child{}
+.pink_square{flex-direction: column;
+position: relative;
+width: 510px;
+}
+.pink_square p{padding: 25px 0px 25px 35px;}
+.pink_square div{background-color: #F13C6E;
+}
+.pink_square h3{padding-top: 40px;
+padding-left: 35px;
+}
+.pink_square input{margin-bottom: 35px;
+margin-left: 35px;
+border: 1px #FFFFFF solid;
+border-radius: 30px;
+padding: 7px  22px;
+}
+
+
+.email_logo{position: absolute;
+left: 335px;
+}
+
+
+.light_pink_square{flex-direction: column;
+    position: relative;
+    width: 550px;
+    }
+    .light_pink_square p{padding: 25px 0px 25px 35px;}
+    .light_pink_square div{background-color: #F13C6E;
+    }
+    .light_pink_square h3{padding-top: 40px;
+    padding-left: 35px;
+    }
+    
+    
+    
+    .car_logo{position: absolute;
+    left: 335px;
+
+    
+    }
+   
+.bonus_position{flex-direction: row;
+    justify-content: space-between;
+ }
+ .bonus{padding: 0 0 35px 35px;}
+ .btn_map_shop{border: 1px solid #FFFFFF;
+    border-radius: 30px;
+    color: #FFFFFF;
+    padding: 7px 27px;}
+    .impuls div{background-color: #FFFFFF;
+        border: 1px #EFEFEF solid;}
+    .impuls img{padding: 35px 63px;}
+    .impuls{
+    padding: 0px;
+    }
+    .impulse_block{padding: 100px 0 0px 0;}
+    .recently_watched{}
+    .second{}
