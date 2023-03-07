@@ -1,9 +1,14 @@
 *{margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
     }
     ol,ul{list-style: none;}
-    a{text-decoration: none;}
+    a{text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+    }
     /* Main styles */
     .container{
         max-width: 1110px;
@@ -14,12 +19,17 @@
 padding: 20px 0;
 }
 /* nav panels and logo  */
-    .wrap p{margin-right: 30px;}
+    .wrap p{margin-right: 30px; 
+    font-size: 14px;
+    font-weight: 400;
+    }
     .logo{padding: 20px 0px 25px 0px;}
     .border{border: 1px solid #EFEFEF;}
    .gray_background{background-color: #EFEFEF;}
    .second_nav{padding: 25px 0px 30px 0px;}
-   .nav_item p{margin-right: 40px;}
+   .nav_item p{margin-right: 40px;
+font-size: 16px;
+}
    /* super chair on the pink background  */
    .black_chair{background: url(/images/black_chair.png) no-repeat;}
    .super_chair{flex-direction: column;
@@ -33,11 +43,18 @@ padding: 10px 30px;
 .super_chair p{padding: 50px 0px;}
 .super_chair{padding-top: 190px;}
 .super_chair{padding-bottom: 190px;}
+.super_chair h2{font-size: 48px;
+font-weight: 700;
+}
+
 
 /* Main_block  */
 .main_block{background-color: #EFEFEF;}
 .special_offers{justify-content: flex-start;
 padding: 80px 0px 40px 0px;
+}
+.special_offers p{font-size: 24px;
+font-weight: 700;
 }
 
 .special_offers_list div{padding: 0px 21px;}
@@ -60,10 +77,12 @@ text-align: center;
 border: #F13C6E;
 
 }
+
 /* PINK SQUARE  */
 .pink_square{flex-direction: column;
 position: relative;
 width: 510px;
+color: #FFFFFF;
 }
 .pink_square p{padding: 25px 0px 25px 35px;}
 .pink_square div{background-color: #F13C6E;
@@ -87,13 +106,19 @@ left: 335px;
 .light_pink_square{flex-direction: column;
     position: relative;
     width: 550px;
+    color: #FFFFFF;
     }
-    .light_pink_square p{padding: 25px 0px 25px 35px;}
+    .light_pink_square p{padding: 25px 0px 25px 35px;
+    
+    }
     .light_pink_square div{background-color: #F13C6E;
     }
-    .light_pink_square h3{padding-top: 40px;
+    .light_pink_square h3{padding-top: 53px;
     padding-left: 35px;
+    font-size: 18px;
+    font-weight: 700;
     }
+    
     
     
     
@@ -144,3 +169,13 @@ padding: 10px 25px;
 }
 .final_footer a{color: 
     #000000;}
+    .value{font-size: 21px;
+        font-weight: 500;}
+        .footer_container{
+            max-width: 1145px;
+
+        }
+        .popular_categories_list li{color: #828282;}
+        .final_footer div a{color: #828282;}
+        .final_footer:first-child{padding-top: 25px;}
+        .final_footer:last-child{padding-bottom: 25px;}
