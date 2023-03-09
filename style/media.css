@@ -1,0 +1,35 @@
+@media screen and (max-width: 1150px){
+.second_nav{
+justify-content: space-around;
+flex-wrap: wrap;
+}
+.black_chair{
+background-size: cover;
+
+}
+.super_chair{background-size: cover;}
+.second_nav p{margin: 0;}
+.super_chair h2{padding-left: 20px;}
+.super_chair p{margin-left: 20px;}
+.btn{padding-left: 20px;}
+.list_item{margin: 20px 0;
+}
+.special_offers p{padding-left: 15px;}
+.bonus_position{justify-content: center;}
+.popular_categories_position{padding-right: 20px;
+justify-content: center;
+}
+.footer_social{padding-left: 40px;}
+.footer_call{padding-right: 40px;}
+.final_footer{justify-content: center;}
+}
+@media screen and (max-width: 630px){
+.email_logo{opacity: 0;}
+.car_logo{opacity: 0;}
+.footer_btn{padding: 10px 0;}
+.footer_position{justify-content: center;}
+
+}
+@media screen and (max-width: 630px){
+    .black_chair{background-position: 62%;}
+}

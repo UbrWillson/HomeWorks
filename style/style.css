@@ -17,6 +17,7 @@
     .wrap{display: flex;
     justify-content: center;
 padding: 20px 0;
+flex-wrap: wrap;
 }
 /* nav panels and logo  */
     .wrap p{margin-right: 30px; 
@@ -25,13 +26,18 @@ padding: 20px 0;
     }
     .logo{padding: 20px 0px 25px 0px;}
     .border{border: 1px solid #EFEFEF;}
-   .gray_background{background-color: #EFEFEF;}
+   .gray_background{background-color: #EFEFEF;
+background-size: contain;
+}
    .second_nav{padding: 25px 0px 30px 0px;}
    .nav_item p{margin-right: 40px;
 font-size: 16px;
 }
    /* super chair on the pink background  */
-   .black_chair{background: url(/images/black_chair.png) no-repeat;}
+   .black_chair{background: url(/images/black_chair.png) no-repeat;
+background-position: center;
+
+}
    .super_chair{flex-direction: column;
     color: #FFFFFF;
 }
