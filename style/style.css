@@ -36,4 +36,46 @@ a {
 }
 .ImgBlock .wrap__positionImg {
   margin-right: 21px;
+  border-radius: 20px;
+  box-shadow: 4px 4px 15px 0px;
+}
+
+.paragraph {
+  font-size: 16px;
+  font-weight: 400;
+  color: #000;
+  font-family: "Open Sans";
+  color: #9B9B9B;
+}
+
+.article {
+  font-size: 32px;
+  font-weight: 600;
+  color: #000;
+  font-family: "Josefin Sans";
+}
+
+.main_article {
+  font-size: 43px;
+  font-weight: 600;
+  color: #000;
+  font-family: "Josefin Sans";
+}
+
+.text_center {
+  justify-content: center;
+  align-content: center;
+  display: flex;
+}
+
+.block_pr {
+  padding: 30px 0 30px 30px;
+}
+
+.btn {
+  padding: 0 0 30px 30px;
+}
+
+.block_ar {
+  padding: 30px 0 0 30px;
 }/*# sourceMappingURL=style.css.map */

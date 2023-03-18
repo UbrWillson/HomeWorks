@@ -30,13 +30,31 @@
     
    .wrap__positionImg{
     margin-right: 21px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 15px 0px;
    }
 
 
     }
+
     .paragraph{
-        @include text(16px,400,'Open Sans', sans-serif)
+        @include text(16px,400,'Open Sans');
+        color: #9B9B9B;
     }
-    .article{@include text(32px,600,'Josefin Sans', sans-serif)}
-    .main_article{@include text(43px)}
+
+    .article{
+        @include text(32px,600);
+    }
+
+    .main_article{
+        @include text(43px,600);
+    }
+    .text_center{justify-content: center;
+    align-content: center;
+    display: flex;
+    }
+    .block_pr{padding: 30px 0 30px 30px;}
+    .btn{padding: 0 0 30px 30px;}
+    .block_ar{padding: 30px 0 0 30px;}
+    
 

@@ -1,7 +1,12 @@
-@mixin text($size,$weight,$family){
+@mixin text($size,$weight,$family:'Josefin Sans'){
     font-size: $size;
     font-weight: $weight;
-    color: #000000;
+    color: #000;
     font-family: $family;
+    
 
 }
+
+
+
+
